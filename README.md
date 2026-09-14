@@ -4,9 +4,12 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![FontAwesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=font-awesome&logoColor=white)
+[![Netlify Status](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://artofcomicbooks.netlify.app)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 > **art of Comic Books** is a modern, responsive landing page and web application interface crafted for comic book enthusiasts, collectors, and casual readers to explore ongoing and archived comic series, choose subscription tiers, and join an active community.
+
+🌐 **Live Demo:** [https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)
 
 ---
 
@@ -20,6 +23,7 @@
 - [Design System & Responsive Architecture](#-design-system--responsive-architecture)
 - [Getting Started & Local Setup](#-getting-started--local-setup)
 - [Future Roadmap](#-future-roadmap)
+- [Preview](#-preview)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -106,6 +110,7 @@ artofComicBooks/
 ├── index.html              # Main landing page
 ├── register.html           # User account registration page
 ├── notyet.html             # Placeholder page for unfinished routes
+├── generate_gif.py         # Script to generate animated showcase preview GIF
 ├── README.md               # Project documentation
 │
 ├── css/                    # Modular CSS stylesheets
@@ -122,7 +127,8 @@ artofComicBooks/
     ├── ghostRider.jpeg     # Ghost Rider showcase card thumbnail
     ├── silversurfer.jpeg   # Silver Surfer showcase card thumbnail
     ├── venom.webp          # Spider-Man / Venom showcase card thumbnail
-    └── notyet.jpeg         # Full-screen coming soon background artwork
+    ├── notyet.jpeg         # Full-screen coming soon background artwork
+    └── preview.gif         # Animated page showcase GIF
 ```
 
 ---
@@ -151,6 +157,14 @@ By setting `html { font-size: 62.5%; }`, `1rem` conveniently maps to `10px`. Flu
 ---
 
 ## 🚀 Getting Started & Local Setup
+
+### 🌐 Live Demo (No Installation Needed)
+You can directly explore the live deployed application in your web browser:  
+👉 **[https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)**
+
+---
+
+### Local Installation
 
 Because this project is built entirely on native web standards, no compilation, npm packages, or build tools are required.
 
@@ -202,6 +216,12 @@ Contributions, suggestions, and feedback are always welcome!
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a **Pull Request**.
+
+---
+
+## 📸 Preview
+
+![art of Comic Books Animated Preview](img/preview.gif)
 
 ---
 
