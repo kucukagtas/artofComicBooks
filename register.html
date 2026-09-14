@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>art of Comic Books</title>   
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+</head>
+<body id="body"> 
+
+    <header class="main-header">
+      <div id="main-nav" class="container">
+        <a href="index.html" class="main-header__logo">
+          <img src="img/logo.png" alt="art of Comic Books">
+          <span>art of Comic Books</span>
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="notyet.html">Ongoing</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="notyet.html">Archive</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary" href="register.html">Register</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" onclick="displayMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="signup-page">
+        <div class="container">
+            <h1 class="signup-title">Create Your Account</h1>
+            <form action="" class="signup-form">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="password">Password</label>
+                <input type="password" id="password">
+
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="">Select</option>
+                    <option value="">Kadın</option>
+                    <option value="">Erkek</option>
+                </select>
+
+                <input type="checkbox" id="agree-terms">
+                <label for="agree-terms">Agree to 
+                    <a href="#">Terms &amp; Conditions</a>
+                </label>
+
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="notyet.html">About</a></li>
+              <li><a href="notyet.html">Blog</a></li>
+              <li><a href="notyet.html">Forum</a></li>
+              <li><a href="notyet.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+</body>
+</html>

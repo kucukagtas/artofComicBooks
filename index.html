@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>art of Comic Books</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div id="main-nav" class="container">
+        <a href="index.html" class="main-header__logo">
+          <img src="img/logo.png" alt="art of Comic Books">
+          <span>art of Comic Books</span>
+        </a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="notyet.html">Ongoing</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="notyet.html">Archive</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary" href="register.html">Register</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" onclick="displayMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome!</h2>
+          <h3>
+            Millions of completed or ongoing comic book series and new friends to discover. Start exploring now!
+          </h3>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">How it works?</h2>
+            <p>
+             We will show you step-by-step exactly how to start discovering your favorite comic book series right now!
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="icon-box col-3">
+              <i class="fas fa-sign-in-alt fa-3x"></i>
+              <h3>Register</h3>
+            </div>
+            <div class="icon-box col-3">
+              <i class="fab fa-buffer fa-3x"></i>
+              <h3>Choose Plan</h3>
+            </div>
+            <div class="icon-box col-3">
+              <i class="far fa-smile fa-3x"></i>
+              <h3>Enjoy Yourself</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features__left"></div>
+          <div class="col-2 features__right">
+            <h3>Stay instantly updated on new series releases and all the latest news!</h3>
+            <p>
+            Join our growing community of comic enthusiasts! Subscribe to our newsletter to get exclusive sneak peeks, release dates for highly anticipated issues, and special announcements delivered straight to your inbox. Never miss a single panel!
+            </p>
+            <a class="btn btn-secondary" href="notyet.html">View Features</a>
+          </div>
+        </div>
+      </section>
+      <section id="plans">
+        <h2 class="section-title">Become a Premium Member</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h2>Starter</h2>
+                <h3>0/month</h3>
+                <ul class="plan__features">
+                  <li>Rotating free collection</li>
+                  <li>Ad-supported reading</li>
+                  <li>Online access only</li>
+                  <li>Standard resolution</li>
+                  <li>1 screen at a time</li>
+                  <li>New issues after 6 months</li>
+                </ul>
+                <div>
+                  <button class="btn btn-primary">Choose Plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 plan plan--featured">
+              <div class="inner-plan recommended_plan">
+                <h2 class="plan__badge">Recommended</h2>
+                <h2>Reader</h2>
+                <h3>$9.99/month</h3>
+                <ul class="plan__features">
+                  <li>Unlimited comic library</li>
+                  <li>Ad-free experience</li>
+                  <li>Download up to 50 issues</li>
+                  <li>HD quality artwork</li>
+                  <li>2 screens at a time</li>
+                  <li>New issues after 3 months</li>
+                </ul>
+                <div>
+                  <button class="btn btn-primary">Choose Plan</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h2>Collector</h2>
+                <h3>$19.99/month</h3>
+                <ul class="plan__features">
+                  <li>Unlimited comic library</li>
+                  <li>Ad-free experience</li>
+                  <li>Unlimited offline downloads</li>
+                  <li>4K Ultra HD artwork</li>
+                  <li>4 screens at a time</li>
+                  <li>Day-one new releases</li>
+                </ul>
+                <div>
+                  <button class="btn btn-primary">Choose Plan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="row counter">
+          <div class="col-3">
+            <span class="counter__item">2.495</span>
+            <h4>Comic Books</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">93.502</span>
+            <h4>Scoring</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">12.856</span>
+            <h4>Users</h4>
+          </div>
+        </div>
+      </section>
+      <section id="comics">
+        <h2 class="section-title">Showcase</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/silversurfer.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Silver Surfer</h2>
+                  <p>
+                    A noble alien who sacrificed his humanity to save his world, now roaming the cosmos on his silver board seeking freedom and redemption.
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/ghostRider.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>Ghost Rider</h2>
+                  <p>
+  A cursed stuntman who transforms into a flaming-skulled, demon-fueled vigilante on a hellfire motorcycle to ruthlessly punish the wicked.
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img
+                  class="card-image img-fluid"
+                  src="img/venom.webp"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h2>The Amazing Spider-Man</h2>
+                  <p>
+  An ordinary teenager who gains extraordinary powers, balancing thrilling superhero battles against iconic villains with the deeply relatable struggles of everyday life.
+                  </p>
+                  <p>
+                    <button class="btn btn-primary">Details</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="notyet.html">About</a></li>
+              <li><a href="notyet.html">Blog</a></li>
+              <li><a href="notyet.html">Forum</a></li>
+              <li><a href="notyet.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fab fa-facebook"></a></li>
+              <li><a href="" class="fab fa-twitter"></a></li>
+              <li><a href="" class="fab fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#body" id="backtotop">
+      <i class="fas fa-chevron-circle-up"></i>
+    </a>
+
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+  </body>
+</html>
