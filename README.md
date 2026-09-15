@@ -1,230 +1,129 @@
-# 📚 art of Comic Books
+# 📚 art of Comic Books — Digital Comic Platform
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![FontAwesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=font-awesome&logoColor=white)
-[![Netlify Status](https://img.shields.io/badge/Live_Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://artofcomicbooks.netlify.app)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+<div align="center">
 
-> **art of Comic Books** is a modern, responsive landing page and web application interface crafted for comic book enthusiasts, collectors, and casual readers to explore ongoing and archived comic series, choose subscription tiers, and join an active community.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-artofcomicbooks.netlify.app-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://artofcomicbooks.netlify.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-🌐 **Live Demo:** [https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)
+<p align="center">
+  <strong>A sleek, modern, and fully responsive web platform crafted for comic book enthusiasts, collectors, and readers worldwide.</strong>
+</p>
 
----
-
-## 📖 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Technologies & Libraries Used](#-technologies--libraries-used)
-- [Pages & Structure](#-pages--structure)
-- [File & Directory Architecture](#-file--directory-architecture)
-- [Design System & Responsive Architecture](#-design-system--responsive-architecture)
-- [Getting Started & Local Setup](#-getting-started--local-setup)
-- [Future Roadmap](#-future-roadmap)
-- [Preview](#-preview)
-- [Contributing](#-contributing)
-- [License](#-license)
+[🌐 Visit Live Website](https://artofcomicbooks.netlify.app) • [✨ Key Features](#-key-features) • [🛠️ Tech Stack](#️-tech-stack) • [🚀 Getting Started](#-getting-started) • [📄 License](#-license)
 
 ---
 
-## 🌟 Overview
+</div>
 
-**art of Comic Books** provides an engaging digital gateway into the comic book multiverse. The platform enables comic lovers to:
-- Browse popular and legendary comic titles and superhero origins.
-- Understand subscription options from free entry to ultra-high-definition collector memberships.
-- Sign up effortlessly via a dedicated registration page.
-- Experience a smooth, mobile-friendly interface with sleek animations and micro-interactions.
+## 📖 Overview
 
-The project is built purely with **Vanilla Web Technologies** (semantic HTML5, modular CSS3, and lightweight Vanilla JavaScript) without bulky external frontend frameworks.
+**art of Comic Books** is an immersive, modern landing page and web application interface designed to connect readers with the vast comic book multiverse. Whether discovering classic storylines, following ongoing releases, or joining a vibrant community of comic enthusiasts, the platform offers an intuitive, visually striking gateway.
+
+Built entirely with **Vanilla Web Technologies** (semantic HTML5, modular CSS3, and lightweight JavaScript), the project emphasizes fast load speeds, fluid animations, and flawless responsiveness across all screen sizes.
+
+🔗 **Live Deployment:** [https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)
 
 ---
 
 ## ✨ Key Features
 
-- **📱 Fully Responsive Design:** Fluid layout adapting seamlessly across mobile phones, tablets, laptops, and ultra-wide desktop monitors.
-- **🍔 Interactive Mobile Navigation:** Toggleable responsive hamburger menu for touch devices powered by clean JavaScript.
-- **🦸 Hero / Showcase Section:** Engaging full-width visual hero banner with a tinted gradient overlay and call-to-action typography.
-- **🚀 "How It Works" 3-Step Guide:** Visual onboarding cards highlighting Registration, Plan Selection, and Comic Reading.
-- **💎 Multi-Tier Subscription Plans:**
-  - **Starter ($0/mo):** Ad-supported, rotating free collection, standard resolution, single-screen access.
-  - **Reader ($9.99/mo - Recommended):** Ad-free, unlimited library, HD artwork, up to 50 offline issue downloads, dual-screen access.
-  - **Collector ($19.99/mo):** Day-one new releases, 4K Ultra HD artwork, unlimited offline downloads, 4 simultaneous screens.
-- **📊 Live Statistics & Counters:** Visual metric counters showcasing 2,495+ comic books, 93,500+ community ratings, and 12,800+ active users.
-- **🃏 Comic Card Showcase:**
-  - Interactive profile cards for legendary icons like *Silver Surfer*, *Ghost Rider*, and *The Amazing Spider-Man*.
-  - Smooth lift-on-hover effects (`transform: translateY(-10px)`), shadow depth, and full-bleed cover imagery.
-- **📝 User Registration Portal (`register.html`):**
-  - Form validation structure containing inputs for first name, last name, email, password, gender dropdown, and terms agreement.
-  - Custom circular-styled checkboxes and focused input states with accessibility in mind.
-- **⏳ "Coming Soon" Route (`notyet.html`):**
-  - A stylized placeholder page with full-screen thematic artwork for routes in development (Archive, Ongoing, Blog, Forum, Contact).
-- **⬆️ Back-to-Top Navigation:** Sticky floating button with smooth scroll behavior for quick upward navigation.
-- **🔗 Social Footers:** Styled brand links for Facebook, Twitter, and Instagram with brand-accurate hover transitions.
+- **📱 Fully Responsive Design:** Fluid layouts optimized for mobile phones, tablets, laptops, and ultra-wide desktop monitors using responsive CSS grid and flexbox.
+- **🍔 Interactive Mobile Navigation:** Seamless hamburger menu toggle for small screens powered by vanilla JavaScript.
+- **🦸 High-Impact Hero Showcase:** Full-width hero banner with textured artwork, gradient overlays, and engaging call-to-action typography.
+- **🚀 "How It Works" Onboarding:** Clear 3-step visual guide outlining Registration, Plan Selection, and Reading.
+- **💎 Multi-Tier Membership Plans:**
+  - **Free Tier:** Ad-supported access with standard resolution and rotating issues.
+  - **Recommended Tier ($9.99/mo):** Ad-free HD reading, dual-device streaming, and offline downloads.
+  - **Ultimate Tier ($19.99/mo):** 4K Ultra HD artwork, 4 simultaneous screens, day-one releases, and unlimited downloads.
+- **📊 Real-Time Platform Statistics:** Metric counter counters displaying thousands of available issues, community ratings, and active members.
+- **🃏 Character & Series Spotlight Cards:**
+  - Interactive profile cards featuring comic legends such as *Ghost Rider*, *Silver Surfer*, and *The Amazing Spider-Man*.
+  - Smooth hover transformations (`translateY`), dynamic drop shadows, and full-bleed cover imagery.
+- **📝 User Registration Portal (`register.html`):** Clean sign-up page with responsive form inputs, gender selector, and custom circular agreement checkboxes.
+- **⏳ Thematic Placeholder Route (`notyet.html`):** Atmospheric, full-screen coming soon page for routes under active development.
+- **⚡ Pure Vanilla Web Tech:** Zero runtime framework dependencies for instantaneous page loads and optimal Core Web Vitals.
 
 ---
 
-## 🛠️ Technologies & Libraries Used
+## 🛠️ Tech Stack
 
-| Technology / Resource | Usage & Purpose |
-| :--- | :--- |
-| **HTML5** | Clean, accessible, semantic structure (`<header>`, `<main>`, `<section>`, `<nav>`, `<footer>`). |
-| **CSS3 (Modular Architecture)** | Custom Properties (variables), Flexbox, multi-column grid, keyframe transitions, and media queries. |
-| **Vanilla JavaScript** | Zero-dependency DOM manipulation for mobile navigation toggling (`displayMenu`). |
-| **Google Fonts** | Modern web typography: `Lato` (body text) and `Roboto` (navigation, titles). |
-| **Font Awesome 5** | CDN icon pack (`v5.15.4`) for navigation icons, process indicators, and social logos. |
-
----
-
-## 📄 Pages & Structure
-
-1. **`index.html` (Landing Page):**
-   - Fixed header with branding and navigation menu
-   - Hero banner with welcoming heading and CTA
-   - How It Works process section
-   - Newsletter / Feature spotlight
-   - Membership pricing cards with a recommended highlight badge
-   - Platform stats and counter display
-   - Featured comic books cards
-   - Footer with sitemap links and social media channels
-
-2. **`register.html` (Sign-Up Page):**
-   - Clean, centered form layout
-   - Input fields: First Name, Last Name, Email, Password
-   - Gender selector dropdown (`<select>`)
-   - Custom styled checkbox for Terms & Conditions agreement
-   - Responsive submit button and unified navigation header/footer
-
-3. **`notyet.html` (Under Construction / Placeholder):**
-   - Minimalist full-screen graphic background (`img/notyet.jpeg`)
-   - Shared persistent header for uninterrupted site navigation
+| Technology             | Purpose                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------- |
+| **HTML5**              | Clean semantic structure, accessibility (`aria-label`, meta viewport, SEO)           |
+| **CSS3**               | Modular stylesheets, CSS custom variables (design tokens), Flexbox, and CSS Grid       |
+| **Vanilla JavaScript** | Lightweight DOM manipulation for mobile navigation toggling                           |
+| **Google Fonts**       | Typography using [Lato](https://fonts.google.com/specimen/Lato) and [Roboto](https://fonts.google.com/specimen/Roboto) |
+| **Font Awesome**       | Scalable vector icons for navigation, feature indicators, ratings, and social links    |
+| **Netlify**            | Continuous deployment and static site hosting                                          |
 
 ---
 
-## 📂 File & Directory Architecture
+## 📁 Project Structure
 
 ```text
 artofComicBooks/
-│
-├── index.html              # Main landing page
-├── register.html           # User account registration page
-├── notyet.html             # Placeholder page for unfinished routes
-├── generate_gif.py         # Script to generate animated showcase preview GIF
-├── README.md               # Project documentation
-│
-├── css/                    # Modular CSS stylesheets
-│   ├── base.css            # Root resets, fluid rem scaling, and responsive grid helpers
-│   ├── buttons.css         # Reusable button styles (primary, secondary, outline)
-│   ├── forms.css           # Form controls, custom checkboxes, and input focus styles
-│   ├── notyet.css          # Dedicated background styling for the placeholder view
-│   └── styles.css          # Primary bundle importing partials, tokens, and page components
-│
-└── img/                    # Graphic assets and comic book imagery
-    ├── logo.png            # Application logo & favicon
-    ├── main.jpeg           # Hero background banner image
-    ├── secondary.jpg       # Features section background image
-    ├── ghostRider.jpeg     # Ghost Rider showcase card thumbnail
-    ├── silversurfer.jpeg   # Silver Surfer showcase card thumbnail
-    ├── venom.webp          # Spider-Man / Venom showcase card thumbnail
-    ├── notyet.jpeg         # Full-screen coming soon background artwork
-    └── preview.gif         # Animated page showcase GIF
+├── css/
+│   ├── base.css          # Resets, fluid rem scaling, and responsive grid system
+│   ├── buttons.css       # Reusable button components (primary, secondary, outline)
+│   ├── forms.css         # Form controls, custom checkboxes, and input focus states
+│   ├── notyet.css        # Background styling for the placeholder route
+│   └── styles.css        # Main stylesheet importing partials, tokens, and page styles
+├── img/                  # High-resolution comic book artwork, logos, and banners
+│   ├── logo.png
+│   ├── main.jpeg
+│   ├── secondary.jpeg
+│   ├── secondary.jpg
+│   ├── ghostRider.jpeg
+│   ├── silversurfer.jpeg
+│   ├── venom.webp
+│   └── notyet.jpeg
+├── index.html            # Main landing page
+├── register.html         # User sign-up and registration page
+├── notyet.html           # Under construction / placeholder page
+├── LICENSE               # MIT License
+└── README.md             # Project documentation
 ```
 
 ---
 
-## 🎨 Design System & Responsive Architecture
+## 🚀 Getting Started
 
-### Design Tokens (CSS Variables)
-Colors and recurring styles are centralized in `styles.css`:
-```css
-:root {
-    --primary-color: #b266b2;    /* Vibrant Purple / Magenta Accent */
-    --secondary-color: #66b2b2;  /* Teal / Sea Green Secondary Accent */
-    --premium-color: #66b2b2;    /* Highlight for Featured Tier */
-}
-```
+To run this project locally on your machine:
 
-### Fluid Typography & Viewport Scaling
-By setting `html { font-size: 62.5%; }`, `1rem` conveniently maps to `10px`. Fluid typography scales progressively with device breakpoints:
-- **Base (< 576px):** `font-size: 62.5%` (Mobile-optimized)
-- **Small (≥ 576px):** `font-size: 68%`, Container width `540px`
-- **Medium (≥ 768px):** `font-size: 72%`, Container width `720px`
-- **Large (≥ 992px):** `font-size: 74%`, Container width `960px`
-- **X-Large (≥ 1200px):** `font-size: 78%`, Container width `1140px`
-- **XX-Large (≥ 1400px):** `font-size: 80%`, Container width `1320px`
+### 1. Clone the repository
 
----
-
-## 🚀 Getting Started & Local Setup
-
-### 🌐 Live Demo (No Installation Needed)
-You can directly explore the live deployed application in your web browser:  
-👉 **[https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)**
-
----
-
-### Local Installation
-
-Because this project is built entirely on native web standards, no compilation, npm packages, or build tools are required.
-
-### Method 1: Direct Browser Launch
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/your-username/artofComicBooks.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd artofComicBooks
-   ```
-3. Open `index.html` in your favorite web browser (Chrome, Firefox, Safari, Edge).
-
-### Method 2: VS Code Live Server (Recommended)
-1. Open the project folder in **Visual Studio Code**.
-2. Install the **Live Server** extension by *Ritwick Dey*.
-3. Right-click `index.html` and select **"Open with Live Server"**.
-4. The site will automatically open at `http://127.0.0.1:5500` with live reload enabled.
-
-### Method 3: Lightweight Local Python Server
-Run one of the following commands in the project root:
 ```bash
-# Python 3
-python3 -m http.server 8000
+git clone https://github.com/kucukagtas/artofComicBooks.git
 ```
-Then visit `http://localhost:8000` in your browser.
+
+### 2. Navigate to the project folder
+
+```bash
+cd artofComicBooks
+```
+
+### 3. Open in your browser
+
+- Simply double-click `index.html` to open it in your default web browser.
+- **Or** run a local development server (such as VS Code's **Live Server** extension or `npx serve`):
+
+  ```bash
+  npx serve .
+  ```
 
 ---
 
-## 🔮 Future Roadmap
+## 🌐 Deployment
 
-Potential future enhancements to extend this project:
+This project is deployed and hosted on **Netlify** with automated continuous integration directly connected to GitHub.
 
-- [ ] **Interactive Comic Reader:** In-browser panel-by-panel or double-page reader with keyboard navigation (arrow keys) and zoom capabilities.
-- [ ] **Search & Categorization:** Dynamic search bar and filtering by publisher (Marvel, DC, Image, Dark Horse, Manga) or genre.
-- [ ] **Dark Mode Toggle:** Native light/dark theme switch using CSS variables and `prefers-color-scheme`.
-- [ ] **Authentication & Database Backend:** Connecting `register.html` to a REST API or Firebase/Supabase for user authentication and profile management.
-- [ ] **My Library & Bookmarking:** Allowing users to save favorites and track reading progress using `localStorage` or user accounts.
-- [ ] **Third-Party API Integration:** Dynamic comic issues and character data fetched via the Marvel Comics API or Comic Vine API.
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and feedback are always welcome!
-1. **Fork** the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a **Pull Request**.
-
----
-
-## 📸 Preview
-
-![art of Comic Books Animated Preview](img/preview.gif)
+👉 **Live URL:** [https://artofcomicbooks.netlify.app](https://artofcomicbooks.netlify.app)
 
 ---
 
 ## 📄 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information (or reference [MIT Open Source](https://opensource.org/licenses/MIT)).
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
